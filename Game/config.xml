@@ -2,5 +2,30 @@
 
 <!-- Config file for the game -->
 <config>
-  <name> My project </name>
+  <name>gdddd</name>
+  
+  <app>
+    <title>Game development test</title>
+    <organization>UPC</organization>
+  </app>
+
+  <renderer>
+    <vsync value="false"/>
+  </renderer>
+
+  <window
+   fullscreen = "0"
+   borderless = "0"
+   resizable = "1"
+   fullscreen_window = "0"
+   title = "GD Test"
+   width = "1024"
+   height = "768"
+   scale = "1">
+   </window>
+
+  <audio
+  default_music_fade_time = "2"
+  ></audio>
+
 </config>
