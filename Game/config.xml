@@ -14,18 +14,20 @@
   </jRenderer>
 
   <jWindow
-   fullscreen = "false"
-   borderless = "false"
-   resizable = "true"
-   fullscreen_window = "false"
-   title = "GD Test"
-   width = "1024"
-   height = "768"
-   scale = "1"
+   fullscreen="false"
+   borderless="false"
+   resizable="true"
+   fullscreen_window="false"
+   title="GD Test"
+   width="1024"
+   height="768"
+   scale="1"
    ></jWindow>
   
   <jAudio
-  default_music_fade_time = "2"
+  default_music_fade_time="2"
+  music_volume="100"
+  effects_volume="100"
   ></jAudio>
 
 </config>

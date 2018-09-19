@@ -5,6 +5,8 @@
 #include "j1App.h"   // Error if not included ?
 
 #define DEFAULT_MUSIC_FADE_TIME App->node.child("jAudio").attribute("default_music_fade_time").as_int()
+#define MUSIC_VOLUME App->node.child("jAudio").attribute("music_volume").as_int()
+#define EFFECTS_VOLUME App->node.child("jAudio").attribute("effects_volume").as_int()
 
 struct _Mix_Music;
 struct Mix_Chunk;
