@@ -87,6 +87,10 @@ bool j1App::Awake(pugi::xml_node* n)
 		{
 			n = &node;
 		}
+		else if (item->data->name == "jRenderer")
+		{
+			n = &node;
+		}
 		else
 		{
 			n = nullptr;
