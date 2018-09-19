@@ -67,7 +67,7 @@ bool j1App::Awake()
 	else
 	{
 		LOG("config.xml loaded correctly.");
-		auto top = node.first_child();
+		node = document.first_child();
 	}
 
 	bool ret = true;

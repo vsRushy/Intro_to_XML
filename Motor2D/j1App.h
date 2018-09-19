@@ -77,7 +77,7 @@ private:
 	float				dt;
 
 	// TODO 2: Create two new variables from pugui namespace:
-	// a xml_document to store the while config file and
+	// a xml_document to store the whole config file and
 	// a xml_node to read specific branches of the xml
 	pugi::xml_document document;
 	pugi::xml_node node;
