@@ -69,6 +69,7 @@ public:
 	j1Audio*			audio;
 	j1Scene*			scene;
 
+	pugi::xml_node node; // XML node needs to be public!
 
 private:
 
@@ -80,7 +81,6 @@ private:
 	// a xml_document to store the whole config file and
 	// a xml_node to read specific branches of the xml
 	pugi::xml_document document;
-	pugi::xml_node node;
 
 	int					argc;
 	char**				args;
