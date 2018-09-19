@@ -2,7 +2,7 @@
 
 <!-- Config file for the game -->
 <config>
-  <name>gdddd</name>
+  <name>Application</name>
   
   <app>
     <title>Game development test</title>
@@ -21,8 +21,8 @@
    title = "GD Test"
    width = "1024"
    height = "768"
-   scale = "1">
-   </window>
+   scale = "1"
+   ></window>
 
   <audio
   default_music_fade_time = "2"
