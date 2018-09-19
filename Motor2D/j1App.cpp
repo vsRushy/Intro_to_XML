@@ -61,6 +61,15 @@ bool j1App::Awake()
 	// If everything goes well, load the top tag inside the xml_node property
 	// created in the last TODO
 
+	pugi::xml_parse_result result = document.load_file("config.xml");
+	if (result == NULL)
+		LOG("Could not load config.xml. Error %s", result.description());
+	else
+	{
+		LOG("config.xml loaded correctly.");
+		auto top = node.first_child();
+	}
+
 	bool ret = true;
 
 	p2List_item<j1Module*>* item;
