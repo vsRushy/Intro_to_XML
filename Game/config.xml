@@ -9,11 +9,11 @@
     <organization>UPC</organization>
   </app>
 
-  <renderer>
+  <jRenderer>
     <vsync value="false"/>
-  </renderer>
+  </jRenderer>
 
-  <window
+  <jWindow
    fullscreen = "0"
    borderless = "0"
    resizable = "1"
@@ -22,10 +22,10 @@
    width = "1024"
    height = "768"
    scale = "1"
-   ></window>
-
-  <audio
+   ></jWindow>
+  
+  <jAudio
   default_music_fade_time = "2"
-  ></audio>
+  ></jAudio>
 
 </config>
