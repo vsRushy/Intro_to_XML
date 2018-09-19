@@ -130,6 +130,9 @@ bool j1Audio::PlayMusic(const char* path, float fade_time)
 		}
 	}
 
+	// Set music volume from the config.xml
+	Mix_VolumeMusic(MUSIC_VOLUME);
+
 	LOG("Successfully playing %s", path);
 	return ret;
 }
@@ -169,6 +172,9 @@ bool j1Audio::PlayFx(unsigned int id, int repeat)
 	{
 		Mix_PlayChannel(-1, fx[id - 1], repeat);
 	}
+
+	// Set effects volume from config.xml
+	Mix_Volume(-1, EFFECTS_VOLUME);
 
 	return ret;
 }
