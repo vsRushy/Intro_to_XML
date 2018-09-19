@@ -2,8 +2,9 @@
 #define __j1AUDIO_H__
 
 #include "j1Module.h"
+#include "j1App.h"   // Error if not included ?
 
-#define DEFAULT_MUSIC_FADE_TIME 2.0f
+#define DEFAULT_MUSIC_FADE_TIME App->node.child("jAudio").attribute("default_music_fade_time").as_int()
 
 struct _Mix_Music;
 struct Mix_Chunk;

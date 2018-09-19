@@ -14,10 +14,10 @@
   </jRenderer>
 
   <jWindow
-   fullscreen = "0"
-   borderless = "0"
-   resizable = "1"
-   fullscreen_window = "0"
+   fullscreen = "false"
+   borderless = "false"
+   resizable = "true"
+   fullscreen_window = "false"
    title = "GD Test"
    width = "1024"
    height = "768"
